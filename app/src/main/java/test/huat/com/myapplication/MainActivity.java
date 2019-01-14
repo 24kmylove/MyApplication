@@ -56,34 +56,34 @@ public class MainActivity extends Activity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                switch (js) {
-                    case "1":
-
-//                        try {
-//                            th.sleep(10000000);
-//                        } catch (InterruptedException e) {
-//                            e.printStackTrace();
-//                        } Log.e("123", "456");
-                        setContentView(R.layout.pedestrain);
-                        iv = findViewById(R.id.pedestrain);
-                        iv.setImageResource(R.drawable.gif03);
-
-                        break;
-                    case "2":
-//                        th.interrupt();
-                        setContentView(R.layout.carfault);
-                        iv = findViewById(R.id.carfault);
-                        iv.setImageResource(R.drawable.gif01);
-                        break;
-                    case "3":
-//                        th.interrupt();
-                        setContentView(R.layout.temporary);
-                        iv = findViewById(R.id.temporary);
-                        iv.setImageResource(R.drawable.gif01);
-                        break;
-//                    case "4":
-//                        th.notify();
-                }
+//                switch (js) {
+//                    case "1":
+//
+////                        try {
+////                            th.sleep(10000000);
+////                        } catch (InterruptedException e) {
+////                            e.printStackTrace();
+////                        } Log.e("123", "456");
+//                        setContentView(R.layout.pedestrain);
+//                        iv = findViewById(R.id.pedestrain);
+//                        iv.setImageResource(R.drawable.gif03);
+//
+//                        break;
+//                    case "2":
+////                        th.interrupt();
+//                        setContentView(R.layout.carfault);
+//                        iv = findViewById(R.id.carfault);
+//                        iv.setImageResource(R.drawable.gif01);
+//                        break;
+//                    case "3":
+////                        th.interrupt();
+//                        setContentView(R.layout.temporary);
+//                        iv = findViewById(R.id.temporary);
+//                        iv.setImageResource(R.drawable.gif01);
+//                        break;
+////                    case "4":
+////                        th.notify();
+//                }
             }
         }
     };
